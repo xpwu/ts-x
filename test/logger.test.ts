@@ -1,4 +1,4 @@
-import {ConsoleLogger as Log} from "../index"
+import {ConsoleLogger as Log} from ".."
 
 
 test("debug", async ()=>{

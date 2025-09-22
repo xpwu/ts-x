@@ -1,5 +1,5 @@
-import {Delay} from '../index'
-import {Millisecond, Second} from "../index"
+import {Delay} from '..'
+import {Millisecond, Second} from ".."
 
 
 
@@ -9,7 +9,6 @@ describe("delay", ()=>{
 	for (const testCase of testCases) {
 		sum += testCase
 	}
-	jest.setTimeout((sum + Second)/Millisecond)
 
 	test("delay", async ()=>{
 
@@ -18,6 +17,6 @@ describe("delay", ()=>{
 			await Delay(v)
 			expect(Math.abs(Date.now()-t1 - v/Millisecond)).toBeLessThan(10)
 		}
-	})
+	}, (sum + Second)/Millisecond)
 })
 
