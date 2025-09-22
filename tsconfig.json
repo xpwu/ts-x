@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+		"moduleResolution": "bundler",
+
+    "outDir": "dist",
+    "sourceMap": true,
+    "noEmit": false,
+		"declaration": true,
+		"declarationMap": true,
+
+    "experimentalDecorators": true,
+
+    "downlevelIteration": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+		"isolatedModules": true,
+
+    "strict": true,
+
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "src",
+    "index.ts"
+  ],
+  "exclude": ["node_modules/**/*"]
+}
