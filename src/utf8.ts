@@ -6,7 +6,7 @@ export class Utf8 {
   public readonly byteLength:number
   public readonly length:number
 
-  constructor(input: ArrayBuffer|string) {
+  constructor(input: ArrayBufferLike|string) {
     this.indexes = []
 
     if (typeof input !== "string") {
