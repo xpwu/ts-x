@@ -1,6 +1,6 @@
 {
   "name": "ts-x",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "typescript: Duration, Logger and so on",
   "author": "xpwu",
   "type": "module",
