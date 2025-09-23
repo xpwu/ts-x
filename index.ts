@@ -10,3 +10,6 @@ export {AssertError, assert} from "./src/assert"
 export {RandomInt, UniqFlag} from './src/typefunc'
 
 export {Delay} from "./src/delay"
+
+export {SerialQueue} from "./src/serialqueue"
+
